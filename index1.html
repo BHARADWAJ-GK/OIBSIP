@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="overlay">
+      <h1>:: Welcome To My Portfolio ::</h1>
+      <p>Hey!, I'm GADIYARAM KARTHIKEYA BHARADWAJ,a passionate and motivated individual eager to kickstart my career in the field of Information Technology (IT). As a fresher, I bring a strong foundation in technical skills, a hunger for learning, and a dedication to professional growth.
+
+        I recently graduated with a degree in INFORMATION TECHNOLOGY, where I acquired a solid understanding of fundamental IT concepts, programming languages, and system analysis. My coursework exposed me to various programming languages such as Java, C++, and Python, allowing me to develop problem-solving skills and logical thinking. I'm a Web Developer also.</p>
+      <div class="topright flex justify-center ">
+        <img class="mypic" src="C:\Users\GK BHARADWAJ\Downloads\mybestpic.png" alt="my Image"
+        width="300"
+        height="350">  
+    </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>::: About Me :::</h2>
+      <p>I have a strong background in software development with a particular focus on web development. Over the years, I have gained significant experience and expertise in these fields.
+
+        In software development, I have honed my skills in various programming languages, such as JavaScript, Python, and Java. I have worked on diverse projects, ranging from creating web applications to developing software solutions for specific business needs. This experience has allowed me to understand the entire software development life cycle, including requirements analysis, design, coding, testing, and deployment.I have several years of experience in Software development and a lot of experience in Web Development also and I specialize in HTML, CSS, and JavaScript.
+        However, my true passion lies in web development. I have dedicated a substantial portion of my career to mastering web technologies, including HTML, CSS, and JavaScript. I have hands-on experience in building responsive and user-friendly websites, implementing modern design principles, and ensuring cross-browser compatibility.
+
+        Throughout my journey as a web developer, I have had the opportunity to work on numerous projects, each presenting unique challenges and opportunities for growth. This has enabled me to develop a deep understanding of front-end frameworks, such as React and Angular, as well as back-end technologies like Node.js and Django. I am proficient in database management, API integration, and ensuring secure web application development.</p>
+    </div>
+    <button onclick="navigateToPDF()">::: My Resume :::</button>
+
+  <script>
+    function navigateToPDF() {
+      window.location.href = "C:/Users/GK BHARADWAJ/Downloads/MyResume1.pdf";
+    }
+  </script>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>:: PROJECTS ::</h2>
+      <div class="project">
+        <h3>Cloud Based Buss Pass System :</h3>
+        <p>Customer can buy the bus ticket over the Internet, 24 hours a day throughout the week, this solves the issue of bus ticket being misplaced or stolen. Users can recharge through cc or debit car.
+            The site may get overloaded due to huge number of users visiting at once. Thus this system is built up using cloud infrastructure for improved performance.
+            In addition, the online system lets the customers check the availability of the bus ticket before they buy bus ticket. Furthermore, customers no need to pay cash to buy bus ticket because they can pay the bus ticket by using Credit Card (e.g. Master Card, Visa Card).</p>
+      </div>
+      <div class="project">
+        <h3>Magic Wand :</h3>
+        <p>It's a 2D Arcade Game and Harry Potter is the main role who will be firing the Targets. And The Goal of the game is to clear the playing field by shooting Balls. The balls will be destroyed in one shot, the points will scored. It's an Endless game and just need to maintain our Highscore.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>::: Contact Me :::</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
